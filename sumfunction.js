@@ -45,3 +45,29 @@ const sum = function(arra) {
     return result;
 };
 console.log(sum([6, 2, 3, 4, 9, 6, 1, 0, 6]));
+
+/* ===========================================================================
+ * MEAN - the average value of numbers in a list
+ *      - use the provided 'round' function when returning your value
+ *      - if empty array, return null to indicate that mean cannot be calculated
+ *
+ * For example:
+ *
+ *    mean([6,2,3,4,9,6,1,0,5])
+ *
+ * Returns:
+ *
+ *    4
+ */
+/* IMPLEMENT ME */
+const mean = function(arr) {
+    if(arr.lenth !==0) {
+        let aver =0;
+        let result = sum (arr);
+        aver = result / arr.length;
+        return aver;
+    }
+    
+
+};
+console.log(mean([6, 2, 4, 7, 9, 9, 5]));

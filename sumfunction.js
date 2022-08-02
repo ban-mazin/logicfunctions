@@ -18,7 +18,8 @@
  *    9
  */
 /* IMPLEMENT ME */
-const num = function(count) {
-    return count.length;
-    console.log(count.length);
-}
+const count = function(arr) {
+    return arr.length;
+    
+};
+console.log(count([6, 2, 3, 4, 9, 6, 1, 0, 6]));

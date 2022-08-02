@@ -71,3 +71,5 @@ const mean = function(arr) {
 
 };
 console.log(mean([6, 2, 4, 7, 9, 9, 5]));
+
+

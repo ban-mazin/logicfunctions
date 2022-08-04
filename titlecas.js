@@ -18,4 +18,4 @@ const titleCase  = function(text) {
 };
 
 
-console.log(titleCase("this is lighthouse"));
+console.log(titleCase("this is an example"));

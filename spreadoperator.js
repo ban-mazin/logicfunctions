@@ -8,3 +8,6 @@ const objOne = {
 const newobject = {...objOne};
 newobject.childObj.name = 'Bob';
 console.log(objOne.childObj.name);
+
+newobject.childObj.likes.push('pineapple');
+console.log(objOne.childObj.likes);

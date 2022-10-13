@@ -16,3 +16,8 @@ console.log(list);
 
 const list2 = nums.find((num) => num % 2=== 0 ? 'x' : 'y');
 console.log(list2);
+
+const smallnum = nums.filter(smallnum => smallnum < 5);
+console.log(smallnum)
+const oddnum = nums.filter(oddnum => oddnum %2 === 1);
+console.log(oddnum)

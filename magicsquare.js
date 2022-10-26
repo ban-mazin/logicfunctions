@@ -8,12 +8,12 @@
 //   console.log(`${row} summed to ${sum}`);
 // }
 
-const movieReviews = {
-  arrival: 9.5,
-  alien: 9,
-  amelie: 8,
-  'In Bruges': 10
-}
+// const movieReviews = {
+//   arrival: 9.5,
+//   alien: 9,
+//   amelie: 8,
+//   'In Bruges': 10
+// }
 
 //  for(let movie of Object.keys(movieReviews)) {
 //    console.log(movie);
@@ -28,8 +28,11 @@ const movieReviews = {
   //   total += r;
     
   // }
-  for (let movie in movieReviews) {
-    console.log(movie)
-    console.log(movieReviews[movie])
-  }
-
+  // for (let movie in movieReviews) {
+  //   console.log(movie)
+  //   console.log(movieReviews[movie])
+  // }
+function square(num) {
+  console.log(num*num);
+}
+square(5);

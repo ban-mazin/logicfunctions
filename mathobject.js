@@ -6,3 +6,5 @@ for(let i =0; i < 10; i++) {
 
 let num = '33.5';
 console.log(parseInt(num));
+
+num === 33.5 ? console.log('lucky') : console.log('bad');
